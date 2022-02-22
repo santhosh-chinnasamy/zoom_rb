@@ -7,6 +7,8 @@ module Zoom
 
       get 'sip_trunks_get', '/accounts/:account_id/sip_trunk/trunks'
 
+      post 'assign_sip_trunks', '/accounts/:account_id/sip_trunks/trunks'
+
       delete 'sip_trunks_delete', '/accounts/:account_id/sip_trunk/trunks/:trunk_id'
 
       delete 'sip_trunk_numbers_delete', '/accounts/:account_id/sip_trunk/numbers'
