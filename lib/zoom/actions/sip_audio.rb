@@ -29,6 +29,8 @@ module Zoom
       post 'sip_trunks_internal_callout_countries_add', '/accounts/:account_id/sip_trunk/callout_countries'
 
       post 'sip_trunks_numbers_assign', '/accounts/:account_id/sip_trunk/numbers'
+
+      patch 'assign_sip_trunk_settings', '/accounts/:account_id/sip_trunk/settings'
     end
   end
 end
