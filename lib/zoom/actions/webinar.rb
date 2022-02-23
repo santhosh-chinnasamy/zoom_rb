@@ -73,6 +73,8 @@ module Zoom
       get 'webinar_poll_get', '/webinars/:webinar_id/polls/:poll_id'
 
       get 'webinar_panelist_list', '/webinars/:webinar_id/panelists'
+
+      post 'create_webinar_invite_links', '/webinars/:webinar_id/invite_links'
     end
   end
 end
